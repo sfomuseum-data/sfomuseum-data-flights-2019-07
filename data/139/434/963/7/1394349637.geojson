@@ -1,7 +1,11 @@
 {
-  "type": "Feature",
   "id": 1394349637,
+  "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2019-07-03",
+    "date:cessation_upper": "2019-07-03",
+    "date:inception_lower": "2019-07-03",
+    "date:inception_upper": "2019-07-03",
     "edtf:cessation": "2019-07-03",
     "edtf:inception": "2019-07-03",
     "flysfo:airline": "WN",
@@ -13,7 +17,7 @@
     "flysfo:terminal": "1",
     "flysfo:timestamp": 1562175720,
     "geom:area": 0,
-    "geom:bbox": "0.000000,0.000000,0.000000,0.000000",
+    "geom:bbox": "-122.370943,34.725442,-92.223900,37.617990",
     "geom:latitude": 36.171716,
     "geom:longitude": -107.2974215,
     "icao:airline": "SWA",
@@ -24,19 +28,22 @@
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102529201,
     "sfomuseum:flight_id": "20190703-A-SWA-1484",
-    "sfomuseum:flight_number": ["WN1484", "SWA1484"],
+    "sfomuseum:flight_number": [
+      "WN1484",
+      "SWA1484"
+    ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [
-      1159157271, 
-      1159396217, 
-      85922583, 
-      1159157317, 
-      1159157811, 
-      102191575, 
-      102087579, 
-      102527513, 
-      85633793, 
+      1159157271,
+      1159396217,
+      85922583,
+      1159157317,
+      1159157811,
+      102191575,
+      102087579,
+      102527513,
+      85633793,
       85688637
     ],
     "wof:country": "US",
@@ -50,6 +57,7 @@
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102087579,
+        "event_id": 1394349637,
         "locality_id": 85922583,
         "neighbourhood_id": -1,
         "region_id": 85688637,
@@ -58,14 +66,28 @@
       }
     ],
     "wof:id": 1394349637,
-    "wof:involves": [102527513, 102529201, 1159285591, 1159157811],
-    "wof:lastmodified": 1565114127,
+    "wof:involves": [
+      102527513,
+      102529201,
+      1159285591,
+      1159157811
+    ],
+    "wof:lastmodified": 1717006776,
     "wof:name": "WN1484 (LIT-SFO)",
     "wof:parent_id": 1159157811,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2019-07",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
+  "bbox": [
+    -122.370943,
+    34.725442,
+    -92.2239,
+    37.61799
+  ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-92.2239,34.725442]],"type":"MultiPoint"}
 }

@@ -1,7 +1,11 @@
 {
-  "type": "Feature",
   "id": 1394427023,
+  "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2019-07-10",
+    "date:cessation_upper": "2019-07-10",
+    "date:inception_lower": "2019-07-10",
+    "date:inception_upper": "2019-07-10",
     "edtf:cessation": "2019-07-10",
     "edtf:inception": "2019-07-10",
     "flysfo:airline": "NZ",
@@ -15,7 +19,7 @@
     "flysfo:terminal": "3",
     "flysfo:timestamp": 1562816280,
     "geom:area": 0,
-    "geom:bbox": "0.000000,0.000000,0.000000,0.000000",
+    "geom:bbox": "-122.370943,33.677724,-117.866280,37.617990",
     "geom:latitude": 35.647857,
     "geom:longitude": -120.1186115,
     "icao:airline": "ANZ",
@@ -27,19 +31,22 @@
     "sfomuseum:base_flight_id": "20190710-D-UAL-1931",
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20190710-D-ANZ-9699",
-    "sfomuseum:flight_number": ["NZ9699", "ANZ9699"],
+    "sfomuseum:flight_number": [
+      "NZ9699",
+      "ANZ9699"
+    ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [
-      1159157271, 
-      1159396267, 
-      85633793, 
-      102087579, 
-      85922583, 
-      85688637, 
-      1159157785, 
-      102527513, 
-      1159157307, 
+      1159157271,
+      1159396267,
+      85633793,
+      102087579,
+      85922583,
+      85688637,
+      1159157785,
+      102527513,
+      1159157307,
       102191575
     ],
     "wof:country": "US",
@@ -53,6 +60,7 @@
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102087579,
+        "event_id": 1394427023,
         "locality_id": 85922583,
         "neighbourhood_id": -1,
         "region_id": 85688637,
@@ -61,14 +69,29 @@
       }
     ],
     "wof:id": 1394427023,
-    "wof:involves": [102534161, 102527513, 1159283697, 1159157785, 1159285413],
-    "wof:lastmodified": 1565121738,
+    "wof:involves": [
+      102534161,
+      102527513,
+      1159283697,
+      1159157785,
+      1159285413
+    ],
+    "wof:lastmodified": 1717006773,
     "wof:name": "NZ9699 (SFO-SNA)",
     "wof:parent_id": 1159157785,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2019-07",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
+  "bbox": [
+    -122.370943,
+    33.677724,
+    -117.86628,
+    37.61799
+  ],
   "geometry": {"coordinates":[[-117.86628,33.677724],[-122.370943,37.61799]],"type":"MultiPoint"}
 }

@@ -1,7 +1,11 @@
 {
-  "type": "Feature",
   "id": 1394424687,
+  "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2019-07-10",
+    "date:cessation_upper": "2019-07-10",
+    "date:inception_lower": "2019-07-10",
+    "date:inception_upper": "2019-07-10",
     "edtf:cessation": "2019-07-10T19:40:14Z",
     "edtf:inception": "2019-07-10T14:58:00Z",
     "flysfo:airline": "AA",
@@ -13,7 +17,7 @@
     "flysfo:terminal": "2",
     "flysfo:timestamp": 1562767560,
     "geom:area": 0,
-    "geom:bbox": "0.000000,0.000000,0.000000,0.000000",
+    "geom:bbox": "-122.370943,35.220744,-80.942777,37.617990",
     "geom:latitude": 36.419367,
     "geom:longitude": -101.65686,
     "icao:aircraft": "A321",
@@ -26,21 +30,27 @@
     "sfomuseum:arrival_id": 102528659,
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20190710-D-AAL-1960",
-    "sfomuseum:flight_number": ["AA1960", "AAL1960"],
+    "sfomuseum:flight_number": [
+      "AA1960",
+      "AAL1960"
+    ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
-    "src:geom_alt": ["swim-route", "swim-path"],
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "swim:tail_number": "N162UW",
     "wof:belongsto": [
-      1159157795, 
-      85633793, 
-      85688637, 
-      102087579, 
-      85922583, 
-      1159396181, 
-      102527513, 
-      102191575, 
-      1159396121, 
+      1159157795,
+      85633793,
+      85688637,
+      102087579,
+      85922583,
+      1159396181,
+      102527513,
+      102191575,
+      1159396121,
       1159157271
     ],
     "wof:concordances": {
@@ -58,6 +68,7 @@
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102087579,
+        "event_id": 1394424687,
         "locality_id": 85922583,
         "neighbourhood_id": -1,
         "region_id": 85688637,
@@ -66,14 +77,29 @@
       }
     ],
     "wof:id": 1394424687,
-    "wof:involves": [102528659, 102527513, 1159283849, 1159157795, 1159289411],
-    "wof:lastmodified": 1565121833,
+    "wof:involves": [
+      102528659,
+      102527513,
+      1159283849,
+      1159157795,
+      1159289411
+    ],
+    "wof:lastmodified": 1717006771,
     "wof:name": "AA1960 (SFO-CLT)",
     "wof:parent_id": 1159157795,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2019-07",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
+  "bbox": [
+    -122.370943,
+    35.220744,
+    -80.942777,
+    37.61799
+  ],
   "geometry": {"coordinates":[[-80.942777,35.220744],[-122.370943,37.61799]],"type":"MultiPoint"}
 }

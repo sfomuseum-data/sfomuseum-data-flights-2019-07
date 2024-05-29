@@ -1,7 +1,11 @@
 {
-  "type": "Feature",
   "id": 1394342149,
+  "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2019-07-02",
+    "date:cessation_upper": "2019-07-02",
+    "date:inception_lower": "2019-07-02",
+    "date:inception_upper": "2019-07-02",
     "edtf:cessation": "2019-07-02T17:50:33Z",
     "edtf:inception": "2019-07-02T08:22:00Z",
     "flysfo:airline": "UA",
@@ -13,7 +17,7 @@
     "flysfo:terminal": "I",
     "flysfo:timestamp": 1562091000,
     "geom:area": 0,
-    "geom:bbox": "0.000000,0.000000,0.000000,0.000000",
+    "geom:bbox": "-122.370943,34.432475,135.242008,37.617990",
     "geom:latitude": 36.0252325,
     "geom:longitude": 6.435532500000001,
     "icao:aircraft": "B789",
@@ -26,20 +30,26 @@
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102541661,
     "sfomuseum:flight_id": "20190702-A-UAL-34",
-    "sfomuseum:flight_number": ["UA34", "UAL34"],
+    "sfomuseum:flight_number": [
+      "UA34",
+      "UAL34"
+    ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
-    "src:geom_alt": ["swim-route", "swim-path"],
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [
-      1159157337, 
-      1159157271, 
-      85633793, 
-      102527513, 
-      102087579, 
-      85688637, 
-      1159157333, 
-      102191575, 
-      85922583, 
+      1159157337,
+      1159157271,
+      85633793,
+      102527513,
+      102087579,
+      85688637,
+      1159157333,
+      102191575,
+      85922583,
       1159157815
     ],
     "wof:concordances": {
@@ -57,6 +67,7 @@
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102087579,
+        "event_id": 1394342149,
         "locality_id": 85922583,
         "neighbourhood_id": -1,
         "region_id": 85688637,
@@ -65,14 +76,29 @@
       }
     ],
     "wof:id": 1394342149,
-    "wof:involves": [102527513, 102541661, 1159285413, 1159157815, 1159293215],
-    "wof:lastmodified": 1565113927,
+    "wof:involves": [
+      102527513,
+      102541661,
+      1159285413,
+      1159157815,
+      1159293215
+    ],
+    "wof:lastmodified": 1717006769,
     "wof:name": "UA34 (KIX-SFO)",
     "wof:parent_id": 1159157815,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2019-07",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
+  "bbox": [
+    -122.370943,
+    34.432475,
+    135.242008,
+    37.61799
+  ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[135.242008,34.432475]],"type":"MultiPoint"}
 }

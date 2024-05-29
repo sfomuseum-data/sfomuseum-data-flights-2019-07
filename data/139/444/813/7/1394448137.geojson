@@ -88,10 +88,13 @@
       1159283813,
       1159292085
     ],
-    "wof:lastmodified": 1653353577,
+    "wof:lastmodified": 1717006774,
     "wof:name": "AS1800 (PDX-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2019-07",
     "wof:superseded_by": [],
     "wof:supersedes": [],

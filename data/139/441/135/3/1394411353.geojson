@@ -1,7 +1,11 @@
 {
-  "type": "Feature",
   "id": 1394411353,
+  "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2019-07-10",
+    "date:cessation_upper": "2019-07-10",
+    "date:inception_lower": "2019-07-09",
+    "date:inception_upper": "2019-07-09",
     "edtf:cessation": "2019-07-10T03:28:20Z",
     "edtf:inception": "2019-07-09T23:25:00Z",
     "flysfo:airline": "AA",
@@ -13,7 +17,7 @@
     "flysfo:terminal": "2",
     "flysfo:timestamp": 1562729700,
     "geom:area": 0,
-    "geom:bbox": "0.000000,0.000000,0.000000,0.000000",
+    "geom:bbox": "-122.370943,37.617990,-87.894364,41.983038",
     "geom:latitude": 39.800514,
     "geom:longitude": -105.1326535,
     "icao:aircraft": "B738",
@@ -26,21 +30,27 @@
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533631,
     "sfomuseum:flight_id": "20190709-A-AAL-2798",
-    "sfomuseum:flight_number": ["AA2798", "AAL2798"],
+    "sfomuseum:flight_number": [
+      "AA2798",
+      "AAL2798"
+    ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
-    "src:geom_alt": ["swim-route", "swim-path"],
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "swim:tail_number": "N967NN",
     "wof:belongsto": [
-      102191575, 
-      1159157317, 
-      85688637, 
-      1159157707, 
-      102087579, 
-      85633793, 
-      102527513, 
-      1159157323, 
-      85922583, 
+      102191575,
+      1159157317,
+      85688637,
+      1159157707,
+      102087579,
+      85633793,
+      102527513,
+      1159157323,
+      85922583,
       1159157271
     ],
     "wof:concordances": {
@@ -58,6 +68,7 @@
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102087579,
+        "event_id": 1394411353,
         "locality_id": 85922583,
         "neighbourhood_id": -1,
         "region_id": 85688637,
@@ -66,14 +77,29 @@
       }
     ],
     "wof:id": 1394411353,
-    "wof:involves": [102527513, 102533631, 1159283849, 1159157707, 1159289871],
-    "wof:lastmodified": 1565119024,
+    "wof:involves": [
+      102527513,
+      102533631,
+      1159283849,
+      1159157707,
+      1159289871
+    ],
+    "wof:lastmodified": 1717006776,
     "wof:name": "AA2798 (ORD-SFO)",
     "wof:parent_id": 1159157707,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2019-07",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -87.894364,
+    41.983038
+  ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-87.894364,41.983038]],"type":"MultiPoint"}
 }

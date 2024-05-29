@@ -1,7 +1,11 @@
 {
-  "type": "Feature",
   "id": 1394355313,
+  "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2019-07-05",
+    "date:cessation_upper": "2019-07-05",
+    "date:inception_lower": "2019-07-04",
+    "date:inception_upper": "2019-07-04",
     "edtf:cessation": "2019-07-05T02:02:00Z",
     "edtf:inception": "2019-07-04T20:46:00Z",
     "flysfo:airline": "UA",
@@ -13,7 +17,7 @@
     "flysfo:terminal": "3",
     "flysfo:timestamp": 1562293380,
     "geom:area": 0,
-    "geom:bbox": "0.000000,0.000000,0.000000,0.000000",
+    "geom:bbox": "-122.370943,37.617990,-74.177526,40.691243",
     "geom:latitude": 39.1546165,
     "geom:longitude": -98.2742345,
     "icao:aircraft": "B772",
@@ -26,21 +30,27 @@
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530049,
     "sfomuseum:flight_id": "20190704-A-UAL-1885",
-    "sfomuseum:flight_number": ["UA1885", "UAL1885"],
+    "sfomuseum:flight_number": [
+      "UA1885",
+      "UAL1885"
+    ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
-    "src:geom_alt": ["swim-route", "swim-path"],
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "swim:tail_number": "N772UA",
     "wof:belongsto": [
-      1159396301, 
-      102087579, 
-      85922583, 
-      85633793, 
-      102191575, 
-      85688637, 
-      1159157671, 
-      1159157271, 
-      1159157307, 
+      1159396301,
+      102087579,
+      85922583,
+      85633793,
+      102191575,
+      85688637,
+      1159157671,
+      1159157271,
+      1159157307,
       102527513
     ],
     "wof:concordances": {
@@ -58,6 +68,7 @@
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102087579,
+        "event_id": 1394355313,
         "locality_id": 85922583,
         "neighbourhood_id": -1,
         "region_id": 85688637,
@@ -66,14 +77,29 @@
       }
     ],
     "wof:id": 1394355313,
-    "wof:involves": [102527513, 102530049, 1159285413, 1159157671, 1159289985],
-    "wof:lastmodified": 1565114540,
+    "wof:involves": [
+      102527513,
+      102530049,
+      1159285413,
+      1159157671,
+      1159289985
+    ],
+    "wof:lastmodified": 1717006771,
     "wof:name": "UA1885 (EWR-SFO)",
     "wof:parent_id": 1159157671,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2019-07",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -74.177526,
+    40.691243
+  ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-74.177526,40.691243]],"type":"MultiPoint"}
 }

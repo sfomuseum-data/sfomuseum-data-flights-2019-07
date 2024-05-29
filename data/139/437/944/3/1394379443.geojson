@@ -1,7 +1,11 @@
 {
-  "type": "Feature",
   "id": 1394379443,
+  "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2019-07-07",
+    "date:cessation_upper": "2019-07-07",
+    "date:inception_lower": "2019-07-07",
+    "date:inception_upper": "2019-07-07",
     "edtf:cessation": "2019-07-07",
     "edtf:inception": "2019-07-07",
     "flysfo:airline": "AV",
@@ -15,7 +19,7 @@
     "flysfo:terminal": "3",
     "flysfo:timestamp": 1562552700,
     "geom:area": 0,
-    "geom:bbox": "0.000000,0.000000,0.000000,0.000000",
+    "geom:bbox": "-124.108020,37.617990,-122.370943,40.971689",
     "geom:latitude": 39.294839499999995,
     "geom:longitude": -123.2394815,
     "icao:airline": "AVA",
@@ -27,19 +31,22 @@
     "sfomuseum:base_flight_id": "20190707-A-UAL-5700",
     "sfomuseum:departure_id": 102531997,
     "sfomuseum:flight_id": "20190707-A-AVA-2046",
-    "sfomuseum:flight_number": ["AV2046", "AVA2046"],
+    "sfomuseum:flight_number": [
+      "AV2046",
+      "AVA2046"
+    ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [
-      1159157271, 
-      102527513, 
-      85633793, 
-      102087579, 
-      85922583, 
-      85688637, 
-      1159396301, 
-      1159157695, 
-      102191575, 
+      1159157271,
+      102527513,
+      85633793,
+      102087579,
+      85922583,
+      85688637,
+      1159396301,
+      1159157695,
+      102191575,
       1159157307
     ],
     "wof:country": "US",
@@ -53,6 +60,7 @@
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102087579,
+        "event_id": 1394379443,
         "locality_id": 85922583,
         "neighbourhood_id": -1,
         "region_id": 85688637,
@@ -61,14 +69,29 @@
       }
     ],
     "wof:id": 1394379443,
-    "wof:involves": [102527513, 102531997, 1159283957, 1159157695, 1159285413],
-    "wof:lastmodified": 1565115947,
+    "wof:involves": [
+      102527513,
+      102531997,
+      1159283957,
+      1159157695,
+      1159285413
+    ],
+    "wof:lastmodified": 1717006775,
     "wof:name": "AV2046 (ACV-SFO)",
     "wof:parent_id": 1159157695,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2019-07",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
+  "bbox": [
+    -124.10802,
+    37.61799,
+    -122.370943,
+    40.971689
+  ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-124.10802,40.971689]],"type":"MultiPoint"}
 }

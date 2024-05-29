@@ -1,7 +1,11 @@
 {
-  "type": "Feature",
   "id": 1394333489,
+  "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2019-07-01",
+    "date:cessation_upper": "2019-07-01",
+    "date:inception_lower": "2019-07-01",
+    "date:inception_upper": "2019-07-01",
     "edtf:cessation": "2019-07-01T02:17:09-07:00",
     "edtf:inception": "2019-07-01T12:10:00Z",
     "flysfo:airline": "UA",
@@ -13,7 +17,7 @@
     "flysfo:terminal": "3",
     "flysfo:timestamp": 1561998540,
     "geom:area": 0,
-    "geom:bbox": "0.000000,0.000000,0.000000,0.000000",
+    "geom:bbox": "-122.370943,36.126387,-86.676652,37.617990",
     "geom:latitude": 36.8721885,
     "geom:longitude": -104.5237975,
     "icao:aircraft": "A320",
@@ -26,21 +30,28 @@
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102525035,
     "sfomuseum:flight_id": "20190701-A-UAL-1095",
-    "sfomuseum:flight_number": ["UA1095", "UAL1095"],
+    "sfomuseum:flight_number": [
+      "UA1095",
+      "UAL1095"
+    ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
-    "src:geom_alt": ["swim-route", "swim-path", "swim-approach"],
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
     "swim:tail_number": "N417UA",
     "wof:belongsto": [
-      85922583, 
-      1159396301, 
-      102087579, 
-      1159157697, 
-      102527513, 
-      102191575, 
-      1159157307, 
-      85633793, 
-      85688637, 
+      85922583,
+      1159396301,
+      102087579,
+      1159157697,
+      102527513,
+      102191575,
+      1159157307,
+      85633793,
+      85688637,
       1159157271
     ],
     "wof:concordances": {
@@ -58,6 +69,7 @@
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102087579,
+        "event_id": 1394333489,
         "locality_id": 85922583,
         "neighbourhood_id": -1,
         "region_id": 85688637,
@@ -66,14 +78,29 @@
       }
     ],
     "wof:id": 1394333489,
-    "wof:involves": [102527513, 102525035, 1159285413, 1159157697, 1159292085],
-    "wof:lastmodified": 1565113736,
+    "wof:involves": [
+      102527513,
+      102525035,
+      1159285413,
+      1159157697,
+      1159292085
+    ],
+    "wof:lastmodified": 1717006776,
     "wof:name": "UA1095 (BNA-SFO)",
     "wof:parent_id": 1159157697,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2019-07",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
+  "bbox": [
+    -122.370943,
+    36.126387,
+    -86.676652,
+    37.61799
+  ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[-86.676652,36.126387]],"type":"MultiPoint"}
 }

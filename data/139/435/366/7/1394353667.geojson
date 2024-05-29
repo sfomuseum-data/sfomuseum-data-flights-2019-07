@@ -77,10 +77,13 @@
       1159285043,
       1159283849
     ],
-    "wof:lastmodified": 1653353565,
+    "wof:lastmodified": 1717006770,
     "wof:name": "QF3105 (SFO-MIA)",
     "wof:parent_id": -1,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2019-07",
     "wof:superseded_by": [],
     "wof:supersedes": []

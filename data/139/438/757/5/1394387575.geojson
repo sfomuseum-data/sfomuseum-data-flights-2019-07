@@ -1,7 +1,11 @@
 {
-  "type": "Feature",
   "id": 1394387575,
+  "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2019-07-08",
+    "date:cessation_upper": "2019-07-08",
+    "date:inception_lower": "2019-07-08",
+    "date:inception_upper": "2019-07-08",
     "edtf:cessation": "2019-07-08",
     "edtf:inception": "2019-07-08",
     "flysfo:airline": "CM",
@@ -15,7 +19,7 @@
     "flysfo:terminal": "I",
     "flysfo:timestamp": 1562628900,
     "geom:area": 0,
-    "geom:bbox": "0.000000,0.000000,0.000000,0.000000",
+    "geom:bbox": "-122.370943,25.078566,121.233152,37.617990",
     "geom:latitude": 31.348278,
     "geom:longitude": -0.5688954999999964,
     "icao:airline": "CMP",
@@ -27,19 +31,22 @@
     "sfomuseum:base_flight_id": "20190708-A-EVA-18",
     "sfomuseum:departure_id": 102551487,
     "sfomuseum:flight_id": "20190708-A-CMP-8011",
-    "sfomuseum:flight_number": ["CM8011", "CMP8011"],
+    "sfomuseum:flight_number": [
+      "CM8011",
+      "CMP8011"
+    ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [
-      1159157639, 
-      102527513, 
-      85633793, 
-      102087579, 
-      85922583, 
-      85688637, 
-      1159157271, 
-      1159157339, 
-      102191575, 
+      1159157639,
+      102527513,
+      85633793,
+      102087579,
+      85922583,
+      85688637,
+      1159157271,
+      1159157339,
+      102191575,
       1159157333
     ],
     "wof:country": "US",
@@ -53,6 +60,7 @@
         "continent_id": 102191575,
         "country_id": 85633793,
         "county_id": 102087579,
+        "event_id": 1394387575,
         "locality_id": 85922583,
         "neighbourhood_id": -1,
         "region_id": 85688637,
@@ -61,14 +69,29 @@
       }
     ],
     "wof:id": 1394387575,
-    "wof:involves": [102527513, 102551487, 1159284211, 1159157639, 1159284349],
-    "wof:lastmodified": 1565116613,
+    "wof:involves": [
+      102527513,
+      102551487,
+      1159284211,
+      1159157639,
+      1159284349
+    ],
+    "wof:lastmodified": 1717006772,
     "wof:name": "CM8011 (TPE-SFO)",
     "wof:parent_id": 1159157639,
     "wof:placetype": "event",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2019-07",
     "wof:superseded_by": [],
     "wof:supersedes": []
   },
+  "bbox": [
+    -122.370943,
+    25.078566,
+    121.233152,
+    37.61799
+  ],
   "geometry": {"coordinates":[[-122.370943,37.61799],[121.233152,25.078566]],"type":"MultiPoint"}
 }
